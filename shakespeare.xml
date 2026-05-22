@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A Midsummer Night's Dream, 5.1.1840–1881</title>
+        <editor>Genevieve Bourjeaurd</editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished electronic edition</p>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q1">First Quarto (1600)</witness>
+          <witness xml:id="F1">First Folio (1623)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="THE"><persName>Theseus</persName></person>
+          <person xml:id="PHIL"><persName>Philostrate</persName></person>
+          <person xml:id="EGE"><persName>Egeus</persName></person>
+          <person xml:id="LYS"><persName>Lysander</persName></person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="parallel">
+
+        <!-- ============================================================
+             WITNESS 1: First Quarto (1600)
+             NOTE: In Q1, Theseus reads the entertainments himself.
+                   Philostrate speaks only the framing lines.
+             ============================================================ -->
+        <div type="witness" xml:id="wit-Q1">
+          <head>First Quarto (1600)</head>
+
+          <sp who="#PHIL">
+            <speaker>PHIL</speaker>
+            <l><hi rend="italic">H</hi>ere mighty <hi rend="italic">Theseus</hi></l>
+          </sp>
+
+          <sp who="#THE">
+            <speaker>The.</speaker>
+            <l>Say, what abridgementhaue you for this euening?</l>
+            <l>What maske, what musicke? <hi rend="small-caps">HOW</hi> shall we beguile</l>
+            <l>The lazy tyme,if not with some delight?</l>
+          </sp>
+
+          <sp who="#PHIL">
+            <speaker>Philost.</speaker>
+            <l>There is a briefe,how many sports are ripe.</l>
+            <l>Make choyce,ofwhich your <hi rend="small-caps">H</hi>ighnesse will see first.</l>
+          </sp>
+
+          <sp who="#THE">
+            <speaker>The.</speaker>
+            <l>The battell with the <hi rend="italic">centaures</hi> to be sung,</l>
+            <l>By an <hi rend="italic">Athenian</hi> Eunuche, to the <hi rend="small-caps">H</hi>arpe?</l>
+            <l>Weele none of that.That haue I tolde my loue,</l>
+            <l>In glory of my kinsman <hi rend="italic">Hercules</hi>.</l>
+            <l>The ryot of the tipsie <hi rend="italic">Bachanals</hi>,</l>
+            <l>Tearing the <hi rend="small-caps">T</hi><hi rend="italic">hracian</hi> singer,in their rage?</l>
+            <l>That is an olde deuice: and it was plaid,</l>
+            <l>When I from <hi rend="italic">Thebes</hi> came last a conquerer.</l>
+            <l>The thrise three Muses, mourning for the death</l>
+            <l>Oflearning,late deceast,in beggery?</l>
+            <l>That is some <hi rend="italic">Satire</hi>keene and criticall,</l>
+            <l>Notsorting with a nuptiall ceremony.</l>
+            <l>A tedious briefe Scene of young <hi rend="italic">Pyramus</hi></l>
+            <l>And his loue <hi rend="italic">Thisby</hi>; very tragicall mirth?</l>
+            <p>Merry,and tragicall? Tedious,and briefe? That is hot Ise,
+            And wōdrous strange snow.How shall we find the cōcord Of this discord?</p>
+          </sp>
+
+          <sp who="#PHIL">
+            <speaker>Philost.</speaker>
+            <l>A Play there is,my Lord, some ten words long;</l>
+            <l>Which is as briefe,as I haue knowne a play:</l>
+            <l>But,by ten words,my Lord it is too long:</l>
+            <l>Which makes it tedious. For in all the Play,</l>
+            <l>There is not one word apt, one player fitted.</l>
+            <l>And tragicall, my noble Lord, it is.For <hi rend="italic">Pyramus</hi>,</l>
+            <l>Therein, doth kill himselfe. Which when I saw</l>
+            <l>Rehearst,I must confesse, made mine eyes water:</l>
+            <l>But more merry teares the passion of loud laughter</l>
+            <l>Neuer shed.</l>
+          </sp>
+
+          <sp who="#THE">
+            <speaker>These.</speaker>
+            <l>What are they, that doe play it?</l>
+          </sp>
+
+          <sp who="#PHIL">
+            <speaker>Phil.</speaker>
+            <l>Hard handed men, that worke in <hi rend="italic">Athens</hi> here,</l>
+            <l>Which neuerlabour'd in their minds till now:</l>
+            <l>And now haue toyled their vnbreathed memories,</l>
+            <l>With this same Play,against your nuptiall.</l>
+          </sp>
+
+          <sp who="#THE">
+            <speaker>The.</speaker>
+            <l>And wee will heare it.</l>
+          </sp>
+
+          <sp who="#PHIL">
+            <speaker>Phi.</speaker>
+            <p>No,my noble Lord,it is not for you. I haue heard
+            It ouer, and it is nothing, nothing in the world;
+            Vnlesse you can finde sport in their entents,
+            Extreamely stretcht,and cond with cruell paine,
+            To do you seruice.</p>
+          </sp>
+
+          <sp who="#THE">
+            <speaker>The.</speaker>
+            <l>I will heare that play.For neuer any thing</l>
+            <l>Can be amisse,when simplenesse and duety tender it.</l>
+            <l>Goe bring them in,and take your places, Ladies.</l>
+          </sp>
+
+        </div>
+
+        <!-- ============================================================
+             WITNESS 2: First Folio (1623)
+             NOTE: In F1, the role of reading entertainments is split
+                   between Egeus (Ege.) and Lysander (Lis.).
+                   Philostrate appears only at the end.
+             ============================================================ -->
+        <div type="witness" xml:id="wit-F1">
+          <head>First Folio (1623)</head>
+          
+          <sp who="#EGE">
+            <speaker>Ege.</speaker>
+            <l>Here mighty <hi rend="italic">Theseus</hi></l>
+          </sp>
+
+          <sp who="#THE">
+            <speaker>The.</speaker>
+            <l>Say, what abridgement haue you for this euening?</l>
+            <l>What maske, what musicke? <hi rend="small-caps">HOW</hi> shall we beguile</l>
+            <l>The lazie tyme,if not with some delight?</l>
+          </sp>
+
+          <sp who="#EGE">
+            <speaker>Ege.</speaker>
+            <l>There is a breefe how many sports are rife:</l>
+            <l>Make choise of which your Highnesse will see first.</l>
+          </sp>
+
+          <sp who="#LYS">
+            <speaker>Lis.</speaker>
+            <l>The battell with the Centaurs to be sung</l>
+            <l>By an Athenian Eunuch, to the Harpe.</l>
+          </sp>
+
+          <sp who="#THE">
+            <speaker>The.</speaker>
+            <l>Wee'l none of that. That haue I told my Loue</l>
+            <l>In glory of my kingsman Hercules.</l>
+          </sp>
+
+          <sp who="#LYS">
+            <speaker>Lis.</speaker>
+            <l>The riot of the tipsie Bachanals,</l>
+            <l>Tearing the Thracian singer,in their rage?</l>
+          </sp>
+
+          <sp who="#THE">
+            <speaker>The.</speaker>
+            <l>That is an old deuice, and it was plaid</l>
+            <l>When I from <hi rend="italic">Thebes</hi> came last a Conqueror.</l>
+          </sp>
+
+          <sp who="#LYS">
+            <speaker>Lis.</speaker>
+            <l>The thrice three Muses,mourning for the death</l>
+            <l>of learning, late deceast in beggerie.</l>
+          </sp>
+
+          <sp who="#THE">
+            <speaker>The.</speaker>
+            <l>That is some Satire keene and criticall,</l>
+            <l>Not sorting with a nuptiall ceremonie.</l>
+          </sp>
+
+          <sp who="#LYS">
+            <speaker>Lis.</speaker>
+            <l>A tedious breefe Scene of young <hi rend="italic">Piramus</hi>,</l>
+            <l>and his loue <hi rend="italic">Thisby</hi>; very tragicall mirth.</l>
+          </sp>
+
+          <sp who="#THE">
+            <speaker>The.</speaker>
+            <p>Merry and tragicall? Tedious, and briefe? That
+            is,hot ice, and woudrous strange snow. How shall wee
+            finde the concord of this discord?</p>
+          </sp>
+
+          <sp who="#EGE">
+            <speaker>Egeb.</speaker>
+            <l>A play there is, my Lord, some ten words long,</l>
+            <l>Which is as breefe, as I haue knowne a play;</l>
+            <l>But by ten words, my Lord, it is too long;</l>
+            <l>Which makes it tedious: For in all the play,</l>
+            <l>There is not one word apt, one Player fitted,</l>
+            <l>And tragicall, my noble Lord, it is; for <hi rend="italic">Piramus</hi></l>
+            <l>Therein doth kill himselfe. Which when I saw</l>
+            <l>Rehearst, I must confesse, made mine eyes water:</l>
+            <l>But more merrie teares,the passion of loud laughter</l>
+            <l>Neuer shed.</l>
+          </sp>
+
+          <sp who="#THE">
+            <speaker>Thes.</speaker>
+            <l>What are they that do play it?</l>
+          </sp>
+
+          <sp who="#EGE">
+            <speaker>Ege.</speaker>
+            <l>Hard handed men, that worke in Athens heere,</l>
+            <l>Which neuer labour'd in their mindes till now;</l>
+            <l>And now haue toyled their vnbreathed memories</l>
+            <l>With this same play,against your nuptiall.</l>
+          </sp>
+
+          <sp who="#THE">
+            <speaker>The.</speaker>
+            <l>And we will heare it.</l>
+          </sp>
+
+          <sp who="#PHIL">
+            <speaker>Phil.</speaker>
+            <p>No, my noble Lord,it is not for you. I haue heard
+            It ouer, and it is nothing, nothing in the world;
+            Vnlesse you can finde sport their intents,
+            Extreamely strecht,and cond with cruell paine,
+            To doe your seruice.</p>
+          </sp>
+
+          <sp who="#THE">
+            <speaker>Thes.</speaker>
+            <l>I will heare that play. For neuer any thing</l>
+            <l>Can be amisse, when simplenesse and duty tender it.</l>
+            <l>Goe bring them in,and take your places, Ladies.</l>
+          </sp>
+
+        </div>
+      </div>
+    </body>
+  </text>
+
+</TEI>
