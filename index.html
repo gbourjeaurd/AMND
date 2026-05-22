@@ -169,6 +169,10 @@
     /* ── Typographic rendering ──────────────────── */
     tei-hi[rend="italic"]     { font-style: italic; }
     tei-hi[rend="small-caps"] { font-size: 0.70em; letter-spacing: 0.05em; }
+    tei-hi[rend="large"] { font-size: 1.3em; }
+
+    .tei-note[data-rend="large"]::before { font-size: 1.3em; }
+
 
     /* ── Segmented layout (notes) ───────────────── */
     .tei-seg[data-rend="right-far"]  { display: block; text-align: right; padding-right: 15%; }
@@ -246,7 +250,7 @@
     const c = new CETEI();
     c.addBehaviors({
       "tei": {
-      "note": ["<span class='tei-note' id='$@xml:id' data-n='$@n'>", "</span>"],
+      "note": ["<span class='tei-note' id='$@xml:id' data-n='$@n' data-rend='$@rend'>", "</span>"],
       "ref": ["<span class='tei-ref' data-target='$@target'>", "</span>"],
       "seg": ["<div class='tei-seg' data-rend='$@rend'>", "</div>"]
       }
