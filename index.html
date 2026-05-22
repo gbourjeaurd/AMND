@@ -192,17 +192,19 @@ tei-l[rend="right"] {
   <div id="tei-content"></div>
 
   <script>
-const c = new CETEI();
+    const c = new CETEI();
 c.addBehaviors({
   "tei": {
-  "note": ["<span class='tei-note' id='$@xml:id' data-n='$@n'>", "</span>"],
+    "note": ["<span class='tei-note' id='$@xml:id' data-n='$@n'>", "</span>"],
+    "ref": ["<span class='tei-ref' data-target='$@target'>", "</span>"]
+  }
 });
 c.getHTML5("shakespeare.xml", function(data) {
   document.getElementById("tei-content").appendChild(data);
 
-  document.querySelectorAll("tei-ref").forEach(function(ref) {
+  document.querySelectorAll(".tei-ref").forEach(function(ref) {
     ref.addEventListener("click", function() {
-      const target = this.getAttribute("target").replace("#", "");
+      const target = this.getAttribute("data-target").replace("#", "");
       const note = document.getElementById(target);
       if (note) {
         note.scrollIntoView({ behavior: "smooth" });
