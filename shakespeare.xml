@@ -391,8 +391,9 @@
              NOTE: Theobald explains why he restores lines to Theseus and 
              Philostrate in a lengthly footnote...a mild band of terror for him.
              ============================================================ -->
-            <div type="witness"> Theobald </div>
-           
+           <div type="witness" xml:id="wit-THEO">
+            <head>Theobald (1733)</head>
+             
                   <sp who="#PHIL">
                     <speaker>Philost.</speaker>
                        <l>Here, mighty Theseus.</l>
