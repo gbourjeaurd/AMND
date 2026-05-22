@@ -143,6 +143,9 @@ tei-sp tei-stage {
 
     tei-ref:hover { color: #1a1208; }
 
+    tei-ref::before { content: "("; }
+    tei-ref::after  { content: ")"; }
+
 /* the notes section at the bottom */
     tei-div[type="notes"] {
       margin-top: 2rem;
