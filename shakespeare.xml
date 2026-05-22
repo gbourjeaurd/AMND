@@ -14,7 +14,7 @@
         <listWit>
           <witness xml:id="Q1">First Quarto (1600)</witness>
           <witness xml:id="F1">First Folio (1623)</witness>
-          <witness xml:id="ROWE">Pope (1709)</witness>
+          <witness xml:id="ROWE">Rowe (1709)</witness>
           <witness xml:id="POPE">Pope (1723)</witness>
           <witness xml:id="THEO">Theobald (1733)</witness>
         </listWit>
@@ -387,9 +387,8 @@
              WITNESS 4: Pope (1725)
              NOTE: Pope regularises all speech to iambic pentameter and gives lines to Philostrate instead of Egeus
              ============================================================ -->
-        
-          <div type="parallel">
-              <div type="witness" xml:id="wit-POPE">
+  
+        <div type="witness" xml:id="wit-POPE">
           <head>Alexander Pope (1725)</head>
                 
           <sp who="#PHIL">
@@ -509,14 +508,16 @@
                   <l>Go bring them in, and take your places, ladies.</l>
                 </sp>
                         <stage>[Exit Phil.]</stage>
-              </div>  
+              </div>
+           </div>
             
          <!-- ============================================================
              WITNESS 5: Theobald (1733)
              NOTE: Theobald explains why he restores lines to Theseus and 
              Philostrate in a lengthly footnote...a mild band of terror for him.
              ============================================================ -->
-           <div type="witness" xml:id="wit-THEO">
+       <div type="parallel">   
+      <div type="witness" xml:id="wit-THEO">
             <head>Lewis Theobald (1733)</head>
              
                   <sp who="#PHIL">
