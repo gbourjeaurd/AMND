@@ -160,6 +160,10 @@ tei-sp tei-stage {
       padding-left: 1.5rem;
       text-indent: -1.5rem;
     }
+    .tei-note::before {
+  content: attr(data-n) ". ";
+  font-weight: bold;
+}
 
 tei-l[rend="right"] {
   text-align: right !important;
@@ -191,8 +195,7 @@ tei-l[rend="right"] {
 const c = new CETEI();
 c.addBehaviors({
   "tei": {
-    "note": ["<span class='tei-note' id='$@xml:id'>", "</span>"]
-  }
+  "note": ["<span class='tei-note' id='$@xml:id' data-n='$@n'>", "</span>"],
 });
 c.getHTML5("shakespeare.xml", function(data) {
   document.getElementById("tei-content").appendChild(data);
