@@ -141,6 +141,11 @@
       padding-left: 1.5rem;
       text-indent: -1.5rem;
     }
+
+    tei-note::before {
+      content: attr(n) ". ";
+      font-weight: bold;
+    }
     
     /* ── Responsive: stack on mobile ───────────── */
     @media (max-width: 640px) {
