@@ -13,10 +13,10 @@
     @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
 
     @font-face {
-  font-family: 'Anaktoria';
-  src: url('Anaktoria.ttf') format('truetype');
-}
-    
+      font-family: 'Anaktoria';
+      src: url('Anaktoria.ttf') format('truetype');
+    }
+
     /* ── Reset & base ───────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -89,6 +89,10 @@
       margin-bottom: 1.4rem;
     }
 
+    tei-sp[rend="tight"] {
+      margin-bottom: 0.08rem;
+    }
+
     tei-speaker {
       display: block;
       font-family: 'Anaktoria', serif;
@@ -98,19 +102,18 @@
       margin-bottom: .25rem;
     }
 
-    tei-sp[who="#THE"] tei-speaker   { color: #517596; }
-    tei-sp[who="#PHIL"] tei-speaker  { color: #886700; }
-    tei-sp[who="#EGE"] tei-speaker   { color: #632C2B; }
-    tei-sp[who="#LYS"] tei-speaker   { color: #445A28; }
+    tei-sp[who="#THE"] tei-speaker  { color: #517596; }
+    tei-sp[who="#PHIL"] tei-speaker { color: #886700; }
+    tei-sp[who="#EGE"] tei-speaker  { color: #632C2B; }
+    tei-sp[who="#LYS"] tei-speaker  { color: #445A28; }
 
     /* ── Verse lines ────────────────────────────── */
     tei-l {
       display: block;
       padding-left: 1.2rem;
-      text-indent: -1.2rem; /* hanging indent for wrapped lines */
+      text-indent: -1.2rem;
     }
 
-    /* Line numbers via data attribute — optional */
     tei-l::before {
       content: attr(n);
       display: inline-block;
@@ -122,58 +125,79 @@
       font-style: normal;
     }
 
-tei-sp tei-stage {
-  display: inline;
-  text-align: left;
-  padding-right: 0;
-}
+    tei-l[rend="right"] {
+      text-align: right !important;
+      padding-right: 20% !important;
+      text-indent: 0 !important;
+    }
 
-tei-l tei-stage {
-  display: inline;
-  font-style: italic;
-  color: #6b5740;
-}
+    /* ── Stage directions ───────────────────────── */
+    tei-stage {
+      display: block;
+      text-align: right;
+      padding-right: 20%;
+      font-style: italic;
+      color: #6b5740;
+      margin: .5rem 0;
+    }
 
-tei-l tei-stage[rend="right-near"] {
-  float: right;
-  margin-right: 10%;
-}
+    tei-sp tei-stage {
+      display: inline;
+      text-align: left;
+      padding-right: 0;
+    }
 
-tei-l tei-stage[rend="right-far"] {
-  float: right;
-  margin-right: 25%;
-}
+    tei-l tei-stage {
+      display: inline;
+      font-style: italic;
+      color: #6b5740;
+    }
+
+    tei-l tei-stage[rend="right-near"] {
+      float: right;
+      margin-right: 10%;
+      padding-left: 1rem;
+    }
+
+    tei-l tei-stage[rend="right-far"] {
+      float: right;
+      margin-right: 25%;
+      padding-left: 1rem;
+    }
 
     tei-stage[rend="right-far"] {
-  display: block;
-  text-align: right;
-  padding-right: 15%;
-  color: #6b5740;
-}
+      display: block;
+      text-align: right;
+      padding-right: 15%;
+      color: #6b5740;
+    }
 
-    tei-sp[rend="tight"] {
-  margin-bottom: 0.08rem;
-}
-    
     /* ── Typographic rendering ──────────────────── */
     tei-hi[rend="italic"]     { font-style: italic; }
     tei-hi[rend="small-caps"] { font-size: 0.85em; letter-spacing: 0.05em; }
 
-    /* footnote reference numbers in the text */
-    tei-ref {
+    /* ── Segmented layout (notes) ───────────────── */
+    tei-seg[rend="right-far"] { display: block; text-align: right; padding-right: 15%; }
+    tei-seg[rend="centre"]    { display: block; text-align: center; }
+    tei-seg[rend="indent"]    { display: block; padding-left: 55%; }
+
+    /* ── Footnote refs in text ──────────────────── */
+    .tei-ref {
       cursor: pointer;
       color: #6b5740;
-      font-size: 0.75em;
-      vertical-align: super;
+      font-size: 0.85em;
       border-bottom: 1px dotted #6b5740;
     }
+    .tei-ref::before { content: "("; }
+    .tei-ref::after  { content: ")"; }
+    .tei-ref:hover   { color: #1a1208; }
 
-    tei-ref:hover { color: #1a1208; }
+    tei-div[xml\\:id="wit-THEO"] .tei-ref {
+      vertical-align: super;
+      font-size: 0.75em;
+    }
 
-    tei-ref::before { content: "("; }
-    tei-ref::after  { content: ")"; }
-
-/* the notes section at the bottom */
+    /* ── Notes section ──────────────────────────── */
     tei-div[type="notes"] {
       margin-top: 2rem;
       border-top: 1px solid #e0d0b8;
@@ -187,24 +211,17 @@ tei-l tei-stage[rend="right-far"] {
       padding-left: 1.5rem;
       text-indent: -1.5rem;
     }
-.tei-note::before {
-  content: "(" attr(data-n) ") ";
-  font-weight: bold;
-}
 
-    tei-l tei-stage {
-  display: inline;
-  font-style: italic;
-  color: #6b5740;
-}
+    .tei-note::before {
+      content: attr(data-n) ". ";
+      font-weight: bold;
+    }
 
-tei-l tei-stage[rend="right"] {
-  float: right;
-}
+    tei-div[xml\\:id="wit-THEO"] .tei-note::before {
+      content: "(" attr(data-n) ") ";
+      font-weight: bold;
+    }
 
-    tei-seg[rend="right-far"] { display: block; text-align: right; padding-right: 15%; }
-tei-seg[rend="centre"]    { display: block; text-align: center; }
-tei-seg[rend="indent"]    { display: block; padding-left: 55%; }
     /* ── Responsive: stack on mobile ───────────── */
     @media (max-width: 640px) {
       tei-div[type="parallel"] {
@@ -228,27 +245,27 @@ tei-seg[rend="indent"]    { display: block; padding-left: 55%; }
 
   <script>
     const c = new CETEI();
-c.addBehaviors({
-  "tei": {
-    "note": ["<span class='tei-note' id='$@xml:id' data-n='$@n'>", "</span>"],
-    "ref": ["<span class='tei-ref' data-target='$@target'>", "</span>"]
-  }
-});
-c.getHTML5("shakespeare.xml", function(data) {
-  document.getElementById("tei-content").appendChild(data);
-
-  document.querySelectorAll(".tei-ref").forEach(function(ref) {
-    ref.addEventListener("click", function() {
-      const target = this.getAttribute("data-target").replace("#", "");
-      const note = document.getElementById(target);
-      if (note) {
-        note.scrollIntoView({ behavior: "smooth" });
-        note.style.background = "#f0e8d8";
-        setTimeout(function() { note.style.background = ""; }, 1500);
+    c.addBehaviors({
+      "tei": {
+        "note": ["<span class='tei-note' id='$@xml:id' data-n='$@n'>", "</span>"],
+        "ref": ["<span class='tei-ref' data-target='$@target'>", "</span>"]
       }
     });
-  });
-});
+    c.getHTML5("shakespeare.xml", function(data) {
+      document.getElementById("tei-content").appendChild(data);
+
+      document.querySelectorAll(".tei-ref").forEach(function(ref) {
+        ref.addEventListener("click", function() {
+          const target = this.getAttribute("data-target").replace("#", "");
+          const note = document.getElementById(target);
+          if (note) {
+            note.scrollIntoView({ behavior: "smooth" });
+            note.style.background = "#f0e8d8";
+            setTimeout(function() { note.style.background = ""; }, 1500);
+          }
+        });
+      });
+    });
   </script>
 
 </body>
