@@ -182,11 +182,14 @@ tei-sp tei-stage {
   font-weight: bold;
 }
 
-tei-l tei-stage {
+    tei-l tei-stage {
   display: inline;
-  float: right;
   font-style: italic;
   color: #6b5740;
+}
+
+tei-l tei-stage[rend="right"] {
+  float: right;
 }
     /* ── Responsive: stack on mobile ───────────── */
     @media (max-width: 640px) {
