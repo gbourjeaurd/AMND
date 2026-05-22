@@ -142,10 +142,6 @@
       text-indent: -1.5rem;
     }
 
-    tei-note::before {
-      content: attr(n) ". ";
-      font-weight: bold;
-    }
     
     /* ── Responsive: stack on mobile ───────────── */
     @media (max-width: 640px) {
@@ -170,6 +166,11 @@
 
   <script>
 const c = new CETEI();
+c.addBehaviors({
+  "tei": {
+    "note": ["<span class='tei-note' id='$@xml:id'>", "</span>"]
+  }
+});
 c.getHTML5("shakespeare.xml", function(data) {
   document.getElementById("tei-content").appendChild(data);
 
