@@ -765,7 +765,7 @@
                 
               <sp who="#THE">
                 <speaker>Theseus.</speaker>
-                  <l><stage>reads.<ref target="#n†">†</ref>]</stage> <hi rend="italic">The battel with the Centaurs, to be sung</hi></l>
+                  <l><stage>reads.<ref target="#ndagger"><hi rend="large">†</hi></ref>†</ref>]</stage> <hi rend="italic">The battel with the Centaurs, to be sung</hi></l>
                   <l><hi rend="italic">By an</hi> Athenian <hi rend="italic">eunuch to the harp</hi>.</l>
                   <l>We’ll none of that. That I have told my love,</l>
                   <l>In glory of my kinsman Hercules.</l>
@@ -838,7 +838,8 @@
                 <note xml:id="n*" n="*"> One of the quartos has <hi rend="italic">ripe</hi>, the other, with 
                 II.III.IV. <hi rend="italic">rife</hi>.</note>
 
-                <note xml:id="n†" n="†"> This is printed as Mr. <hi rend="italic">Theobald</hi> gave it from both 
+
+                <note xml:id="ndagger" n="†" rend="large">This is printed as Mr. <hi rend="italic">Theobald</hi> gave it from both 
                 the old quartos. In the firſt folio, and 
                 all the following Editions, <hi rend="italic">Lyſander</hi> reads the 
                 catalogue, and <hi rend="italic">Theſeus</hi> makes the remarks.</note>
