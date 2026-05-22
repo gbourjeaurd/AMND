@@ -201,6 +201,10 @@ tei-l tei-stage[rend="right-far"] {
 tei-l tei-stage[rend="right"] {
   float: right;
 }
+
+    tei-seg[rend="right-far"] { display: block; text-align: right; padding-right: 15%; }
+tei-seg[rend="centre"]    { display: block; text-align: center; }
+tei-seg[rend="indent"]    { display: block; padding-left: 55%; }
     /* ── Responsive: stack on mobile ───────────── */
     @media (max-width: 640px) {
       tei-div[type="parallel"] {
