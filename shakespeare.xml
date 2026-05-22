@@ -17,6 +17,9 @@
           <witness xml:id="ROWE">Rowe (1709)</witness>
           <witness xml:id="POPE">Pope (1723)</witness>
           <witness xml:id="THEO">Theobald (1733)</witness>
+          <witness xml:id="HAN">Hanmer (1744)</witness>
+          <witness xml:id="JOHN">Johnson (1765)</witness>
+          <witness xml:id="MAL">Malone (1790 )</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -521,42 +524,42 @@
              
                   <sp who="#PHIL">
                     <speaker>Philoſtrate.</speaker>
-                       <l>Here, mighty Theseus.</l>
+                       <l>Here, mighty Theſeus.</l>
                   </sp>
 
                  <sp who="#THE">
                     <speaker>Theſeus.</speaker>
                       <l>Say, what abridgment have you for this evening?</l>
-                      <l>What masque? what musick? how shall we beguile</l>
-                      <l>The lazy time, if not with some delight?</l>
+                      <l>What maſque? what muſick? how ſhall we beguile</l>
+                      <l>The lazy time, if not with ſome delight?</l>
                    </sp>
 
                  <sp who="#PHIL">
                     <speaker>Philoſtrate.</speaker>
-                     <l>There is a brief, how many sports are ripe: <ref target="#n31">31</ref></l>
-                     <l>Make choice of which your Highness will see first.</l>
+                     <l>There is a brief, how many ſports are ripe: <ref target="#n31">31</ref></l>
+                     <l>Make choice of which your Highneſs will see firſt.</l>
                      <l rend="right"><stage>[Giving a Paper.</stage></l>
                    </sp>
                           
                  <sp who="#THE">
                     <speaker>Theſeus.</speaker>
-                     <l><stage>Thes. reads.]</stage> The battel with the Centaurs,to be sung <ref target="#n32">32</ref></l>
+                     <l><stage>Theſ. reads.]</stage> The battel with the Centaurs,to be ſung <ref target="#n32">32</ref></l>
                      <l>By an Athenian eunuch to the harp.</l>
                      <l>We'll none of that. That I have told my love,</l>
-                     <l>In glory of my kinsman Hercules.</l>
-                     <l>The riot of the tipsie Bacchanals,</l>
-                     <l>Tearing the Thracian singer in their rage.</l>
+                     <l>In glory of my kinſman Hercules.</l>
+                     <l>The riot of the tipſie Bacchanals,</l>
+                     <l>Tearing the Thracian ſinger in their rage.</l>
                      <l>That is an old device; and it was plaid,</l>
                      <l>When I from Thebes came last a conqueror.</l>
-                     <l>The thrice three Muses mourning for the death</l>
+                     <l>The thrice three Muſes mourning for the death</l>
                      <l>Of learning, late deceas'd in beggary.</l>
-                     <l>That is some satyr, keen and critical;</l>
-                     <l>Not sorting with a nuptial ceremony.</l>
+                     <l>That is ſome ſatyr, keen and critical;</l>
+                     <l>Not ſorting with a nuptial ceremony.</l>
                      <l>A tedious brief scene of young Pyramus,</l>
-                     <l>And his love Thisbe; very tragical mirth.</l>
+                     <l>And his love Thiſbe; very tragical mirth.</l>
                      <l>Merry and tragical? tedious and brief?</l>
-                     <l>That is hot Ice, and wondrous strange Snow.</l>
-                     <l>How shall we find the concord of this discord?</l>
+                     <l>That is hot Ice, and wondrous ſtrange Snow.</l>
+                     <l>How ſhall we find the concord of this diſcord?</l>
                    </sp>
 
                   <sp who="#PHIL">
@@ -568,9 +571,9 @@
                       <l>There is not one word apt, one player fitted.</l>
                       <l>And tragical, my noble lord, it is:</l>
                       <l>For Pyramus therein doth kill himself.</l>
-                      <l>Which, when I saw rehears'd, I must confess,</l>
+                      <l>Which, when I ſaw rehears'd, I must confeſs,</l>
                       <l>Made mine eyes water; but more merry tears</l>
-                      <l>The passion of loud laughter never shed.</l>
+                      <l>The paſſion of loud laughter never ſhed.</l>
                     </sp>
 
                    <sp who="#THE">
@@ -583,7 +586,7 @@
                        <l>Hard-handed men, that work in Athens here,</l>
                        <l>Which never labour'd in their minds 'till now;</l>
                        <l>And now have toil'd their unbreath'd memories</l>
-                       <l>With this same play against your nuptials.</l>
+                       <l>With this ſame play againſt your nuptials.</l>
                      </sp>
   
                    <sp who="#THE">
@@ -596,16 +599,16 @@
                       <l>No, my noble lord,</l>
                       <l>It is not for you. I have heard it over,</l>
                       <l>And it is nothing, nothing in the world;</l>
-                      <l>Unless you can find sport in their intents,</l>
-                      <l>Extremely stretch'd and conn'd with cruel pain,</l>
+                      <l>Unleſs you can find ſport in their intents,</l>
+                      <l>Extremely ſtretch'd and conn'd with cruel pain,</l>
                       <l>To do you service.</l>
                     </sp>
 
                  <sp who="#THE">      
                    <speaker>Theſeus.</speaker>
                      <l>I will hear that play:</l>
-                     <l>For never any thing can be amiss</l>
-                     <l>When simpleness and duty tender it.</l>
+                     <l>For never any thing can be amiſs</l>
+                     <l>When simpleneſs and duty tender it.</l>
                      <l>Go, bring them in, and take your places, ladies.</l>
                      </sp>
              <stage>[<hi rend="italic">Exit</hi> Phil.</stage>
@@ -631,7 +634,110 @@
                         say, was the Poet’s own Design and Distribution.
                       </note>
                    </div>
-                </div>
+        <!-- ============================================================
+             WITNESS 6: Hanmer (1744)
+             NOTE: 
+             ============================================================ -->
+  
+        <div type="witness" xml:id="wit-HAN">
+          <head>Thomas Hanmer (1744)</head>
+
+                  <sp who="#PHIL">
+                    <speaker>Philoſtrate.</speaker>
+                       <l>Here, mighty <hi rend="italic">Theſeus</hi>.</l>
+                  </sp>
+          
+                 <sp who="#THE">
+                    <speaker>Theſeus.</speaker>
+                      <l>Say, what abridgment have you for this evening?</l>
+                      <l>What maſk? what muſick? how ſhall we beguile</l>
+                      <l>The lazy time, if not with ſome delight?</l>
+                   </sp>
+          
+                 <sp who="#PHIL">
+                    <speaker>Philoſtrate.</speaker>
+                      <l>There is a brief how many ſports are ripe:</l>
+                      <l>Make choice of which your Highneſs will fee firſt.</l>
+                 </sp>
+
+                <sp who="#THE">
+                     <speaker>Theſeus.</speaker>
+                      				<stage>[Reads.</stage> 
+                      <l><hi rend="italic">The battel with the Centaurs, to be ſung</hi></l>
+                      <l><hi rend="italic">By an</hi> Athenian <hi rend="italic">eunuch to the harp</hi>.</l>
+                      <l>We'll none of that. That have I told my love,</l>
+                      <l>In glory of my kinſman <hi rend="italic">Hercules</hi>.</l>
+                              <stage>[Reads.</stage>
+                      <l><hi rend="italic">The riot of the tipſie</hi> Bacchanals,</l>
+                      <l><hi rend="italic">Tearing the Thracian ſinger in their rage</hi>.</l>
+                      <l>That is an old device, and it; was plaid</l>
+                      <l>When I from <hi rend="italic">Thebes</hi> came laſt a conqueror.</l>
+                              <stage>[Reads.</stage>
+                      <l><hi rend="italic">The thrice three Muſes mourning for the death</hi>.</l>
+                      <l><hi rend="italic">Of Learning, late deceas'd in beggary</hi>.</l>
+                      <l>That is ſome ſatyr keen and critical,</l>
+                      <l>Not ſorting with a nuptial ceremony.</l>
+                               <stage>[Reads.</stage>
+                      <l><hi rend="italic">A tedious brief ſcene of young</hi> Pyramus,</l>
+                      <l><hi rend="italic">And his love</hi> Thiſbe; <hi rend="italic">very tragical mirth</hi>.</l>
+                      <l>Merry and tragical? tedious and brief?</l>
+                      <l>That is hot ice, and wondrous ſcorching ſnow;</l>
+                      <l>How ſhall we find the concord of this diſcord?</l>
+                  </sp>
+
+                <sp who="#PHIL">
+                    <speaker>Philoſtrate.</speaker>
+                      <l>A play it is, my lord, ſome ten words long;</l>
+                      <l>Which is as brief as I have known a play;</l>
+                      <l>But by ten words, my lord, it is too long,</l>
+                      <l>Which makes it tedious: for in all the play</l>
+                      <l>There is not one word apt, one player fitted</l>
+                      <l>And tragical, my noble lord, it is:</l>
+                      <l>For <hi rend="italic">Pyramus</hi> therein doth kill himſelf.</l>
+                      <l>Which, when I ſaw't rehears'd, I muſt confers</l>
+                      <l>Made mine eyes water; but more merry tears</l>
+                      <l>The paſſion of loud laughter never ſhed</l>
+                  </sp>
+        
+                <sp who="#THE">
+                   <speaker>Theſeus.</speaker>
+                      <l>What are they that do play it?</l>
+                  </sp>
+
+                <sp who="#PHIL">
+                   <speaker>Philoſtrate.</speaker>
+                      <l>Hard-handed men that work in <hi rend="italic">Athens</hi> here,</l>
+                      <l>Which never labour'd in their minds 'till now;</l>
+                      <l>And now have toil'd their unbreath a memories</l>
+                      <l>With this ſame play againſt your nuptials.</l>
+                    </sp>
+
+               <sp who="#THE">
+                 <speaker>Theſeus.</speaker>
+                      <l>And we will hear it.</l>
+                     </sp>
+
+               <sp who="#PHIL">
+                <speaker>Philoſtrate.</speaker>
+                      <l>No, my noble lord,</l>
+                      <l>It is not for you. I have heard it over,</l>
+                      <l>And it is nothing, nothing in the world,</l>
+                      <l>Unleſs you can find ſport in their intents,</l>
+                      <l>Extremely ſretch'd and conn'd with cruel pain,</l>
+                      <l>To do you ſervice.</l>
+                    </sp>
+
+               <sp who="#THE">
+                 <speaker>Theſeus.</speaker>
+                      <l>I will hear that play:</l>
+                      <l>For never any thing can be amiſs,</l>
+                      <l>When ſimpleneſs and duty tender it.</l>
+                      <l>Go, bring them in; and take your places, ladies.</l>
+                    </sp>
+                                      
+          <stage>[Exit Phil.</stage>
+              </div>
+           </div>
       </div>
     </body>
   </text>
