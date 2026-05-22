@@ -188,14 +188,14 @@
       font-size: 0.85em;
       border-bottom: 1px dotted #6b5740;
     }
-    .tei-ref::before { content: "("; }
-    .tei-ref::after  { content: ")"; }
-    .tei-ref:hover   { color: #1a1208; }
+    .tei-ref:hover { color: #1a1208; }
 
     tei-div[xml\\:id="wit-THEO"] .tei-ref {
       vertical-align: super;
       font-size: 0.75em;
     }
+    tei-div[xml\\:id="wit-THEO"] .tei-ref::before { content: "("; }
+    tei-div[xml\\:id="wit-THEO"] .tei-ref::after  { content: ")"; }
 
     /* ── Notes section ──────────────────────────── */
     tei-div[type="notes"] {
