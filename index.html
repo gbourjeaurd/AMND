@@ -113,19 +113,21 @@
     }
 
     /* standalone stage directions — right margin */
-    tei-stage {
-      display: block;
-      text-align: right;
-      font-style: italic;
-      color: #6b5740;
-      margin: .5rem 0;
-    }
+tei-stage {
+  display: block;
+  text-align: right;
+  padding-right: 20%;
+  font-style: italic;
+  color: #6b5740;
+  margin: .5rem 0;
+}
 
 /* stage directions within a speech — stay inline */
 tei-sp tei-stage {
   display: inline;
   text-align: left;
 }
+    
     /* ── Typographic rendering ──────────────────── */
     tei-hi[rend="italic"]     { font-style: italic; }
     tei-hi[rend="small-caps"] { font-size: 0.85em; letter-spacing: 0.05em; }
