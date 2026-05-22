@@ -538,7 +538,7 @@
                     <speaker>Philostrate.</speaker>
                      <l>There is a brief, how many ſports are ripe: <ref target="#n31">31</ref></l>
                      <l>Make choice of which your Highneſs will see firſt.</l>
-                     <l rend="right"><stage>[Giving a Paper.</stage></l>
+                     <l rend="right"><stage rend="right-far">[Giving a Paper.</stage></l>
                    </sp>
                           
                  <sp who="#THE">
@@ -611,7 +611,7 @@
                      <l>When simpleneſs and duty tender it.</l>
                      <l>Go, bring them in, and take your places, ladies.</l>
                      </sp>
-             <stage>[<hi rend="italic">Exit</hi> Phil.</stage>
+             <stage rend="right-far">[<hi rend="italic">Exit</hi> Phil.</stage>
   
                    <div type="notes">
                       <note xml:id="n31" n="31"> ——— <hi rend="italic">how many Sports are</hi> rife:] 
@@ -732,7 +732,7 @@
                       <l>Go, bring them in; and take your places, ladies.</l>
                     </sp>
                                       
-          <stage>[Exit Phil.</stage>
+          <stage rend="right-far">[<hi rend="italic">Exit</hi> Phil.</stage>
            </div>
       </div>
     </body>
