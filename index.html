@@ -171,10 +171,10 @@
     tei-hi[rend="small-caps"] { font-size: 0.70em; letter-spacing: 0.05em; }
 
     /* ── Segmented layout (notes) ───────────────── */
-    tei-seg[rend="right-far"] { display: block; text-align: right; padding-right: 15%; }
-    tei-seg[rend="right-near"] { display: block; text-align: right; padding-right: 30%; }
-    tei-seg[rend="centre"]    { display: block; text-align: center; }
-    tei-seg[rend="indent"]    { display: block; padding-left: 55%; }
+    .tei-seg[data-rend="right-far"]  { display: block; text-align: right; padding-right: 15%; }
+    .tei-seg[data-rend="right-near"] { display: block; text-align: right; padding-right: 30%; }
+    .tei-seg[data-rend="centre"]     { display: block; text-align: center; }
+    .tei-seg[data-rend="indent"]     { display: block; padding-left: 55%; }
 
     /* ── Footnote refs in text ──────────────────── */
     .tei-ref {
@@ -244,6 +244,7 @@
       "tei": {
         "note": ["<span class='tei-note' id='$@xml:id' data-n='$@n'>", "</span>"],
         "ref": ["<span class='tei-ref' data-target='$@target'>", "</span>"]
+        "seg": ["<div class='tei-seg' data-rend='$@rend'>", "</div>"]
       }
     });
     c.getHTML5("shakespeare.xml", function(data) {
