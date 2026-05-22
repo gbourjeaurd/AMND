@@ -195,8 +195,18 @@
       vertical-align: super;
       font-size: 0.75em;
     }
+
+    tei-div[xml\\:id="wit-THEO"] .tei-note::before {
+      content: "(" attr(data-n) ") ";
+      font-weight: bold;
+    }
+
     tei-div[xml\\:id="wit-THEO"] .tei-ref::before { content: "("; }
     tei-div[xml\\:id="wit-THEO"] .tei-ref::after  { content: ")"; }
+ 
+    tei-div[xml\\:id="wit-JOHN"] .tei-note {
+      line-height: 1;
+    }
 
     /* ── Notes section ──────────────────────────── */
     tei-div[type="notes"] {
@@ -216,15 +226,6 @@
     .tei-note::before {
       content: attr(data-n) ". ";
       font-weight: bold;
-    }
-
-    tei-div[xml\\:id="wit-THEO"] .tei-note::before {
-      content: "(" attr(data-n) ") ";
-      font-weight: bold;
-    }
-
-    tei-div[xml\\:id="wit-JOHN"] tei-note {
-      line-height: 1;
     }
 
     /* ── Responsive: stack on mobile ───────────── */
