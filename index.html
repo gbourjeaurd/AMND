@@ -114,7 +114,33 @@
 
     /* ── Typographic rendering ──────────────────── */
     tei-hi[rend="italic"]     { font-style: italic; }
-    tei-hi[rend="small-caps"] { font-variant: small-caps; }
+    tei-hi[rend="small-caps"] { font-size: 0.85em; letter-spacing: 0.05em; }
+
+    /* footnote reference numbers in the text */
+    tei-ref {
+      cursor: pointer;
+      color: #6b5740;
+      font-size: 0.75em;
+      vertical-align: super;
+      border-bottom: 1px dotted #6b5740;
+    }
+
+    tei-ref:hover { color: #1a1208; }
+
+/* the notes section at the bottom */
+    tei-div[type="notes"] {
+      margin-top: 2rem;
+      border-top: 1px solid #e0d0b8;
+      padding-top: 1rem;
+    }
+
+    tei-note {
+      display: block;
+      font-size: 0.85rem;
+      margin-bottom: 1rem;
+      padding-left: 1.5rem;
+      text-indent: -1.5rem;
+    }
     
     /* ── Responsive: stack on mobile ───────────── */
     @media (max-width: 640px) {
@@ -138,10 +164,22 @@
   <div id="tei-content"></div>
 
   <script>
-    const c = new CETEI();
-    c.getHTML5("shakespeare.xml", function(data) {
-      document.getElementById("tei-content").appendChild(data);
+const c = new CETEI();
+c.getHTML5("shakespeare.xml", function(data) {
+  document.getElementById("tei-content").appendChild(data);
+
+  document.querySelectorAll("tei-ref").forEach(function(ref) {
+    ref.addEventListener("click", function() {
+      const target = this.getAttribute("target").replace("#", "");
+      const note = document.getElementById(target);
+      if (note) {
+        note.scrollIntoView({ behavior: "smooth" });
+        note.style.background = "#f0e8d8";
+        setTimeout(function() { note.style.background = ""; }, 1500);
+      }
     });
+  });
+});
   </script>
 
 </body>
