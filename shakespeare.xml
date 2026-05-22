@@ -254,8 +254,9 @@
             <l>Can be amisse, when simplenesse and duty tender it.</l>
             <l>Goe bring them in,and take your places, Ladies.</l>
           </sp>
-
         </div>
+     </div>
+
         
             <!-- ============================================================
              WITNESS 3: Pope (1725)
@@ -322,7 +323,7 @@
               </sp>
  
               <sp who="#LYS">
-                <speaker>Lys.</speaker></l>
+                <speaker>Lys.</speaker>
                   <l>A tedious brief scene of young Pyramus,</l>
                   <l>And his love Thisbe; very tragical mirth.</l>
               </sp>
@@ -413,7 +414,7 @@
                  <sp who="#THE">
                     <speaker>Thes.</speaker>
                      <l><stage>[Giving a Paper.</stage></l>
-                     <l><stage>Thes. reads.]<stage> The battel with the Centaurs,to be sung <ref target="#n32">(32)</ref></l>
+                     <l><stage>Thes. reads.]</stage> The battel with the Centaurs,to be sung <ref target="#n32">(32)</ref></l>
                      <l>By an Athenian eunuch to the harp.</l>
                      <l>We'll none of that. That I have told my love,</l>
                      <l>In glory of my kinsman Hercules.</l>
@@ -482,8 +483,8 @@
                      <l>Go, bring them in, and take your places, ladies.</l>
                    </sp>
 
-                <stage><hi rend="italic">Exit</hi> Phil.<stage>
-                </div>
+                <stage><hi rend="italic">Exit</hi> Phil.</stage>
+  
                    <div type="notes">
                       <note xml:id="n31" n="31"> ——— <hi rend="italic">how many Sports are</hi> rife:] 
                         I have chosen to restore from one of the old Quarto's printed 
@@ -504,7 +505,8 @@
                         alternately makes his Remarks upon them.    And this, I dare 
                         say, was the Poet’s own Design and Distribution.
                       </note>
-                    </div>
+                   </div>
+                </div>
       </div>
     </body>
   </text>
