@@ -122,27 +122,26 @@
       font-style: normal;
     }
 
-    /* standalone stage directions — right margin */
-tei-stage {
-  display: block;
-  text-align: right;
-  padding-right: 20%;
-  font-style: italic;
-  color: #6b5740;
-  margin: .5rem 0;
-}
-
 tei-sp tei-stage {
   display: inline;
   text-align: left;
   padding-right: 0;
 }
 
-    tei-sp tei-stage[rend="right"] {
-  display: block;
-  text-align: right;
-  padding-right: 30%;
-  text-indent: 0;
+tei-l tei-stage {
+  display: inline;
+  font-style: italic;
+  color: #6b5740;
+}
+
+tei-l tei-stage[rend="right-near"] {
+  float: right;
+  margin-right: 10%;
+}
+
+tei-l tei-stage[rend="right-far"] {
+  float: right;
+  margin-right: 25%;
 }
     
     /* ── Typographic rendering ──────────────────── */
