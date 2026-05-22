@@ -14,6 +14,7 @@
         <listWit>
           <witness xml:id="Q1">First Quarto (1600)</witness>
           <witness xml:id="F1">First Folio (1623)</witness>
+          <witness xml:id="ROWE">Pope (1709)</witness>
           <witness xml:id="POPE">Pope (1723)</witness>
           <witness xml:id="THEO">Theobald (1733)</witness>
         </listWit>
@@ -256,11 +257,135 @@
           </sp>
         </div>
      </div>
-
-        
             <!-- ============================================================
-             WITNESS 3: Pope (1725)
-             NOTE: Pope regularises all speech to iambic pentameter(?)
+             WITNESS 3: ROWE (1709)
+             NOTE: Rowe gives lines to Egeus
+             ============================================================ -->
+
+           <div type="parallel">
+              <div type="witness" xml:id="wit-ROWE">
+          <head>Nicholas Rowe (1709)</head>
+                
+          <sp who="#EGE">
+            <speaker>Ege.</speaker>
+            <l>Here mighty <hi rend="italic">Theſeus</hi>.</l>
+          </sp>
+          
+          <sp who="#THE">
+            <speaker>Theſ.</speaker>
+              <l>Say, what Abridgment have you for this Evening?</l>
+              <l>What Mask? What Muſick? How ſhall we beguile</l>
+              <l>The lazy time, if not with ſome Delight?</l>
+            </sp>
+
+            <sp who="#EGE">
+              <speaker>Ege.</speaker>
+                <l>There is a Brief how many Sports are rife:</l>
+                <l>Make choice of which your Highneſs will ſee firſt.</l>
+             </sp>
+
+            <sp who="#LYS">
+              <speaker>Lyſ.</speaker>
+                <l>The Battel with the Centaur, to be ſung</l>
+                <l>By an <hi rend="italic">Athenian</hi> Eunuch to the Harp.</l>
+              </sp>
+
+              <sp who="#THE">
+                <speaker>Theſ.</speaker>
+                  <l>We'll none of that. That have I told my Love,</l>
+                  <l>In glory of my Kinſman <hi rend="italic">Hercules</hi>.</l>
+              </sp>
+
+            <sp who="#LYS">
+              <speaker>Lyſ.</speaker>
+               <l>The Riot of the tipſie <hi rend="italic">Bachanals</hi>,</l>
+               <l>Tearing the Thracian finger in their rage.</l>
+            </sp>
+
+             <sp who="#THE">
+               <speaker>Theſ.</speaker>
+                <l>That is an old device, and it was plaid</l>
+                <l>When I from <hi rend="italic">Thebes</hi> came last a Conqueror.</l>
+             </sp>
+
+              <sp who="#LYS">
+                <speaker>Lyſ.</speaker>
+                  <l>The thrice three Muſes mourning for the Death of</l>
+                  <l>Learning, late deceas'd in Beggary.</l>
+              </sp>
+
+              <sp who="#THE">
+                <speaker>Theſ.</speaker>
+                  <l>That is some Satyr keen and critical,</l>
+                  <l>Not ſorting with a Nuptial Ceremony.</l>
+              </sp>
+ 
+              <sp who="#LYS">
+                <speaker>Lyſ.</speaker>
+                  <l>A tedious brief Scene of young <hi rend="italic">Pyramus</hi>,</l>
+                  <l>And his Love <hi rend="italic">Thisby</hi>; very tragical Mirth.</l>
+              </sp>
+
+              <sp who="#THE">
+                <speaker>Theſ.</speaker>
+                  <l>Merry and Tragical? Tedious and Brief? That is,</l>
+                  <l>hot Ice, and wondrous ſtrange Snow. How ſhall we find
+                  <l>the Concord of this Diſcord?</l>
+              </sp>
+
+              <sp who="#EGE">
+                <speaker>Ege.</speaker>
+                  <l>A Play there is, my Lord, ſome ten Words long,</l>
+                  <l>Which is as brief as I have known a Play;</l>
+                  <l>But by ten Words, my lord, it is too long,</l>
+                  <l>Which makes it tedious: For in all the Play</l>
+                  <l>There is not one Word apt, one Player fitted.</l>
+                  <l>And Tragical, my Noble Lord, it is:</l>
+                  <l>For <hi rend="italic">Pyramus</hi> therein doth kill himſelf.</l>
+                  <l>Which when I ſaw rehears'd, I must confeſs</l>
+                  <l>Made mine Eyes water; but more merry Tears</l>
+                  <l>The paſſion of loud Laughter never ſhed.</l>
+                </sp>
+
+              <sp who="#THE">
+                <speaker>Theſ.</speaker>
+                  <l>What are they that do play it?</l>
+                </sp>
+
+              <sp who="#EGE">
+                <speaker>Ege.</speaker>
+                  <l>Hard-handed Men that work in <hi rend="italic">Athens</hi> here,</l>
+                  <l>Which never labour'd in their Minds till now;</l>
+                  <l>And now have toil'd their unbreath'd Memories</l>
+                  <l>With this ſame Play, againſt your Nuptials:</l>
+                </sp>
+
+              <sp who="#THE">
+                <speaker>Theſ.</speaker>
+                   <l>And we will hear it.</l>
+              </sp>
+
+              <sp who="#EGE">
+                <speaker>Ege.</speaker>
+                  <l>No, my Noble lord,</l>
+                  <l>It is not for you. I have heard</l>
+                  <l>It over and it is nothing, nothing in the World,</l>
+                  <l>Unleſs you can find ſport in their Intents,</l>
+                  <l>Extremely ſtretch'd and conn'd with cruel Pain,</l>
+                  <l>To do you Service.</l>
+                </sp>
+
+              <sp who="#THE">
+                <speaker>Theſ.</speaker>
+                  <l>I will hear that Play: For never any thing</l>
+                  <l>Can be amiſs, when Simpleneſs and Duty tender it.</l>
+                  <l>Go bring them in, and take your Places, Ladies.</l>
+                </sp>
+              </div>  
+      
+            <!-- ============================================================
+             WITNESS 4: Pope (1725)
+             NOTE: Pope regularises all speech to iambic pentameter and gives lines to Philostrate instead of Egeus
              ============================================================ -->
         
           <div type="parallel">
@@ -387,7 +512,7 @@
               </div>  
             
          <!-- ============================================================
-             WITNESS 4: Theobald (1733)
+             WITNESS 5: Theobald (1733)
              NOTE: Theobald explains why he restores lines to Theseus and 
              Philostrate in a lengthly footnote...a mild band of terror for him.
              ============================================================ -->
