@@ -995,18 +995,18 @@
 
           <note xml:id="n4" n="4"><hi rend="italic">That is, hot ice, and wonderous ſtrange ſnow</hi>.] Mr. Upton 
           reads, not improbably:
-                  <seg rend="para">—<hi rend="italic">and wonderous ſtrange</hi> black <hi rend="italic">snow</hi>.  J<hi rend="small-caps">OHNSON</hi>.</seg>
-          I think the paſſage needs no change on account of the 
+                  <seg rend="indent">—<hi rend="italic">and wonderous ſtrange</hi> black <hi rend="italic">snow</hi>.  J<hi rend="small-caps">OHNSON</hi>.</seg>
+          <seg rend="para">I think the paſſage needs no change on account of the 
           verſification; for <hi rend="italic">wonderous</hi> is as often uſed as <hi rend="italic">three</hi>, as it is as 
           <hi rend="italic">two</hi> ſyllables. The meaning of the line is— “That is, <hi rend="italic">hot ice</hi> 
-          and ſnow of <hi rend="italic">as ſtrange a quality</hi>.”   	S<hi rend="small-caps">TEEVENS</hi>.
-            As there is no antitheſis between <hi rend="italic">ſtrange</hi> and <hi rend="italic">ſnow</hi>, as 
+          and ſnow of <hi rend="italic">as ſtrange a quality</hi>.”   	S<hi rend="small-caps">TEEVENS</hi>.</seg>
+            <seg rend="para">As there is no antitheſis between <hi rend="italic">ſtrange</hi> and <hi rend="italic">ſnow</hi>, as 
           there is between <hi rend="italic">hot</hi> and <hi rend="italic">ice</hi>, I believe we ſhould read— “and 
-          wonderous <hi rend="italic">ſtrong</hi> ſnow.
-                                M<hi rend="small-caps">ASON</hi>.
-          In support of Mr. Maſon’s conjecture it may be 
+          wonderous <hi rend="italic">ſtrong</hi> ſnow.</seg>
+                                <seg rend="left-near">M<hi rend="small-caps">ASON</hi>.</seg>
+          <seg rend="para">In support of Mr. Maſon’s conjecture it may be 
           obſerved that the words <hi rend="italic">ſtrong</hi> and <hi rend="italic">ſtrange</hi> are often 
-          confounded in our old plays.  	M<hi rend="small-caps">ALONE</hi>.</note>
+          confounded in our old plays.  	M<hi rend="small-caps">ALONE</hi>.</seg></note>
 
           <note xml:id="n5" n="5">—unbreath’d <hi rend="italic">memories</hi>] That is, unexerciſed, unpracticed 
           memories.   	S<hi rend="small-caps">TEEVENS</hi>.</note>
