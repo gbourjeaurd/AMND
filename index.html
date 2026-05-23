@@ -309,7 +309,7 @@
       "note": ["<span class='tei-note' id='$@xml:id' data-n='$@n' data-rend='$@rend'>", "</span>"],
       "ref": ["<span class='tei-ref' data-target='$@target'>", "</span>"],
       "seg": ["<div class='tei-seg' data-rend='$@rend'>", "</div>"],
-      "lb": ["<br/>", ""]
+      "lb": function(elt) { return document.createElement("br"); }
       }
     });
     c.getHTML5("shakespeare.xml", function(data) {
