@@ -882,27 +882,27 @@
             <sp who="#PHIL">
               <speaker>Philostrate.</speaker>
                 <l>There is a brief <ref target="#n9">9</ref>, how many ſports are ripe;</l>
-                                        <stage>[giving a paper.</stage>
+                                        <stage rend="right-far">[giving a paper.</stage>
                 <l>Make choice of which your highneſs will ſee firſt.</l>
             </sp>
             
             <sp who="#THE">
                 <speaker>Theseus.</speaker>
-                                          <stage>[reads.</stage>
-                   <l><hi rend="italic">The battle with the Centaurs, to be ſung</hi></l>
-                   <l><hi rend="italic">By an Athenian eunuch to the harp.</hi></l>
+                                          <stage rend="right-far">[reads.</stage>
+                   <l rend="indent"><hi rend="italic">The battle with the Centaurs, to be ſung</hi></l>
+                   <l rend="indent"><hi rend="italic">By an Athenian eunuch to the harp.</hi></l>
                 <l>We’ll none of that: that have I told my love,</l>
                 <l>In glory of my kinſsman Hercules.</l>
-                   <l><hi rend="italic">The riot of the tipſy Bacchanals,</hi></l>
-                   <l><hi rend="italic">Tearing the Thracian ſinger in their rage.</hi></l>
+                   <l rend="indent"><hi rend="italic">The riot of the tipſy Bacchanals,</hi></l>
+                   <l rend="indent"><hi rend="italic">Tearing the Thracian ſinger in their rage.</hi></l>
                 <l>That is an old device; and it was play’d</l>
                 <l>When I from Thebes came laſt a conqueror.</l>
-                   <l><hi rend="italic">The thrice three Muſes mourning for the death</hi></l>
-                   <l><hi rend="italic">Of learning, late deceas’d in beggary <ref target="#n1">1</ref>.</hi></l>
+                   <l rend="indent"><hi rend="italic">The thrice three Muſes mourning for the death</hi></l>
+                   <l rend="indent"><hi rend="italic">Of learning, late deceas’d in beggary <ref target="#n1">1</ref>.</hi></l>
                 <l>That is ſome ſatire, keen, and critical <ref target="#nT">2</ref>,</l>
                 <l>Not ſorting with a nuptial ceremony.</l>
-                   <l><hi rend="italic">A tedious brief ſcene of young Pyramus,</hi></l>
-                   <l><hi rend="italic">And his love Thiſbe; very tragical mirth.</hi></l>
+                   <l rend="indent"><hi rend="italic">A tedious brief ſcene of young Pyramus,</hi></l>
+                   <l rend="indent"><hi rend="italic">And his love Thiſbe; very tragical mirth.</hi></l>
                 <l>Merry and tragical <ref target="#n3">3</ref>? Tedious and brief?</l>
                 <l>That is, hot ice, and wonderous ſtrange ſnow <ref target="#n4">4</ref>.</l>
                 <l>How ſhall we find the concord of this diſcord?</l>
