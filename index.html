@@ -53,24 +53,19 @@
 }
 
     /* ── Parallel columns ───────────────────────── */
-    tei-div[type="parallel"] {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0;
-      max-width: 960px;
-      margin: 0 auto;
-      border: 1px solid #c8b99a;
-      background: #fff8ee;
-    }
+ tei-div[type="parallel"] {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  max-width: 960px;
+  margin: 0 auto;
+  border: 2px solid #AE8B68;
+  background: #fff8ee;
+}
 
-    tei-div[type="witness"] {
-      display: block;
-      padding: 1.8rem 2rem 2rem;
-    }
-
-    tei-div[type="witness"]:first-child {
-      border-right: 1px solid #c8b99a;
-    }
+tei-div[type="witness"]:first-child {
+  border-right: 2px solid #AE8B68;
+}
 
  /* ── Witness heading ────────────────────────── */
 tei-head {
