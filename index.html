@@ -73,21 +73,23 @@
     }
 
     /* ── Witness heading ────────────────────────── */
-
-    tei-head {
+ /* ── Witness heading ────────────────────────── */
+tei-head {
   display: block;
   font-family: 'EB Garamond', serif;
   font-size: 1.5rem;
   letter-spacing: .08em;
   color: #6b5740;
   text-align: center;
-padding: 2rem 2rem;
-margin: -2rem -2rem 2rem -2rem;
+  padding: 2rem 2rem;
+  margin: 0 -2rem 2rem -2rem;
   border-bottom: 1px solid #e0d0b8;
   background: #e8dcc8;
 }
-         tei-div[type="witness"] + tei-div[type="witness"] {
-  margin-top: 1rem;
+
+tei-div[type="witness"] {
+  display: block;
+  padding: 0 2rem 2rem;
 }
 
     /* ── Speech blocks ──────────────────────────── */
