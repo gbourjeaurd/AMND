@@ -211,25 +211,23 @@
     }
     .tei-ref:hover { color: #1a1208; }
 
-    tei-div[xml\\:id="wit-THEO"] .tei-ref {
-      vertical-align: super;
-      font-size: 0.75em;
-    }
-
-    tei-div[xml\\:id="wit-THEO"] .tei-note::before {
-      content: "(" attr(data-n) ") ";
-      font-weight: bold;
-    }
-
-    tei-div[xml\\:id="wit-THEO"] .tei-ref::before { content: "("; }
-    tei-div[xml\\:id="wit-THEO"] .tei-ref::after  { content: ")"; }
+   ; }
 
     tei-div[id="wit-MAL"] .tei-ref {
       vertical-align: super;
       line-height: 0;
     }
 
- 
+ tei-div[id="wit-THEO"] .tei-ref {
+  vertical-align: super;
+  font-size: 0.75em;
+}
+tei-div[id="wit-THEO"] .tei-note::before {
+  content: "(" attr(data-n) ") ";
+  font-weight: bold;
+}
+tei-div[id="wit-THEO"] .tei-ref::before { content: "("; }
+tei-div[id="wit-THEO"] .tei-ref::after  { content: ")"; }
 
     /* ── Notes section ──────────────────────────── */
     tei-div[type="notes"] {
