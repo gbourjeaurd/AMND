@@ -888,7 +888,7 @@
             
             <sp who="#THE">
                 <speaker>Theseus.</speaker>
-                                          <stage rend="right-far">[reads.</stage>
+                                          <stage rend="right-far-normal">[reads.</stage>
                    <l rend="indent"><hi rend="italic">The battle with the Centaurs, to be ſung</hi></l>
                    <l rend="indent"><hi rend="italic">By an Athenian eunuch to the harp.</hi></l>
                 <l>We’ll none of that: that have I told my love,</l>
@@ -956,7 +956,7 @@
                 <l>When ſimpleneſs and duty tender it.</l>
                 <l>Go, bring them in; —and take your places, ladies.</l>
              </sp>
-                			<stage>[<hi rend="italic">Exit</hi> P<hi rend="small-caps">HILOSTRATE</hi>.</stage>
+                      <stage rend="right-far">[<hi rend="italic">Exit</hi> P<hi rend="small-caps">HILOSTRATE</hi>.</stage>
 
       <div type="notes">
 
