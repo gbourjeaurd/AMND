@@ -18,7 +18,9 @@
           <witness xml:id="POPE">Pope (1723)</witness>
           <witness xml:id="THEO">Theobald (1733)</witness>
           <witness xml:id="HAN">Hanmer (1744)</witness>
-          <witness xml:id="JOHN">Johnson (1765)</witness>
+          <witness xml:id="WAR">Warburton (1747)</witness>
+          <witness xml:id="JOHN">Johnson (1765)</witness>.
+          <witness xml:id="STEEV">Steevens (1778)</witness>
           <witness xml:id="MAL">Malone (1790)</witness>
         </listWit>
       </sourceDesc>
@@ -736,11 +738,130 @@
            </div>
       </div>
             <!-- ============================================================
-             WITNESS 7: JOHNSON (1765)
+             WITNESS 7: WARBURTON (1747)
              NOTE: 
              ============================================================ -->
 
            <div type="parallel">
+              <div type="witness" xml:id="wit-WAR">
+              <head>Warburton (1747)</head>
+
+              <head>William Warburton (1747)</head>
+
+            <sp who="#PHIL">
+                <speaker>Philostrate.</speaker>
+                    <l>Here, mighty <hi rend="italic">Theſeus</hi>.    <hi rend="right-far">[ing?</hi></l>
+                </sp>
+
+            <sp who="#THE">
+                <speaker>Theseus.</speaker>
+                    <l>Say, what abridgment have you for this eve</l>
+                    <l>What maſque? what muſick? how ſhall we beguile</l>
+                    <l>The lazy time, if not with ſome delight?</l>
+                </sp>
+
+            <sp who="#PHIL">
+                <speaker>Philostrate.</speaker>
+                    <l>There is a brief, how many ſports are ripe:</l>
+                    <l>Make choice of which your Highneſs will fee firſt.</l>
+                    <l><hi rend="italic">[Giving a Paper</hi>.</l>
+                    </sp>
+                
+            <sp who="#THE">
+                <speaker>Theseus.</speaker>
+                    <l>[reads.] <hi rend="italic">The battle with the Centaurs, to be ſung</hi></l>
+                    <l><hi rend="italic">By an</hi> Athenian <hi rend="italic">eunuch to the harp</hi>.</l>
+                    <l>We'll none of that. That have I told my love,</l>
+                    <l>In glory of my kinſman <hi rend="italic">Hercules</hi>.</l>
+                    <l><hi rend="italic">The riot of the tipſie</hi> Bacchanals,</l>
+                    <l><hi rend="italic">Tearing the</hi> Thracian <hi rend="italic">singer in their rage.</hi></l>
+                    <l>That is an old device, and it; was plaid</l>
+                    <l>When I from <hi rend="italic">Thebes</hi> came laſt a conqueror.</l>
+                    <l><ref target="#n2">2</ref> <hi rend="italic">The thrice three Muſes mourning for the death</hi></l>   
+                    <l><hi rend="italic">Of Learning, late deceas'd in beggary.</hi></l>   
+                    <l>That is ſome ſatyr keen and critical;</l>
+                    <l>Not ſorting with a nuptial ceremony.</l>
+                    <l><hi rend="italic">A tedious brief ſcene of young</hi> Pyramus,</l>
+                    <l><hi rend="italic">And his love</hi> Thiſbe; <hi rend="italic">very tragical mirth.</hi></l>
+                    <l><ref target="#n3">3</ref> Merry and tragical? tedious and brief?</l>
+                    <l>That is hot Ice, and wondrous ſtrange Shew;</l>  
+                    <l> How ſhall we find the concord of this diſcord?</l>
+                </sp>
+
+            <sp who="#PHIL">
+                <speaker>Philostrate.</speaker>
+                    <l> A play it is, my lord, ſome ten words long;</l>
+                    <l>Which is as brief, as I have known a play;</l>
+                    <l>But by ten words, my lord, it is too long,</l>
+                    <l>Which makes it tedious: for in all the play</l>
+                    <l>There is not one word apt, one player fitted.</l>
+                    <l>And tragical, my noble lord, it is:</l>
+                    <l>For <hi rend="italic">Pyramus</hi> therein doth kill himſelf.</l>
+                    <l>Which, when I ſaw't rehears'd, I muſt confeſs</l>
+                    <l>Made mine eyes water; but more merry tears</l>
+                    <l>The paſſion of loud laughter never ſhed.</l>
+                </sp>
+
+            <sp who="#THE">
+                <speaker>Theseus.</speaker>
+                    <l>What are they that do play it?</l>
+                </sp>
+
+            <sp who="#PHIL">
+                <speaker>Philostrate.</speaker>
+                    <l>Hard-handed men that work in <hi rend="italic">Athens</hi> here,</l>
+                    <l>Which never labour'd in their minds 'till now;</l>
+                    <l>And now have toil'd their unbreath'd memories</l>
+                    <l>With this ſame play againſt your nuptials.</l>
+                </sp>
+
+            <sp who="#THE">
+                <speaker>Theseus.</speaker>
+                    <l>And we will hear it.</l>
+                </sp>
+
+            <sp who="#PHIL">
+                <speaker>Philostrate.</speaker>
+                    <l>No, my noble lord,</l>
+                    <l>It is not for you. I have heard it over,</l>
+                    <l>And it is nothing, nothing in the world,</l>
+                    <l>Unless you can find sport in their intents,</l>
+                    <l>Extremely stretch'd and conn'd with cruel pain,</l>
+                    <l>To do you service.</l>
+                </sp>
+
+            <sp who="#THE">
+                <speaker>Theseus.</speaker>
+                    <l>I will hear that play:</l>
+                    <l>“For never any thing can be amiſs,</l>
+                    <l>“When ſimpleneſs and duty tender it.</l>
+                    <l>Go, bring them in; and take your places, ladies.</l>
+                </sp>
+                <stage rend="right-far-normal">[<hi rend="italic">Exit</hi> Phil.</stage>
+            
+        <div type="notes">
+            <note xml:id="war-n2" n="2"><hi rend="italic">The thrice three Mufes, &amp;c.</hi>] This ſeems to be intended as a compliment to <hi rend="italic">Spencer</hi>, 
+            who wrote a poem called <hi rend="italic">The tears of the Muſes</hi>. He ſeems to have paid his friend another, in the <hi rend="italic">ſecond Act</hi>, where he makes the queen of fairies ſay to the king, 
+            ——————————<hi rend="italic">But I know</hi>
+            <hi rend="italic">When thou haſt ſtoll'n away from fairy land,</hi>
+            <hi rend="italic">And, in the ſhape of Corin, ſate all day</hi>
+            <hi rend="italic">Playing on pipes of corn, and verſing lave</hi>
+            <hi rend="italic">To am'rous </hi>Phillida, —— intimating that the paſtorals
+            of that poet were ſo ſweet, that it was a ſuperior being under the diſguiſe of a mortal who compoſed them.</note>
+            
+            <note xml:id="war-n3" n="3"><hi rend="italic">Merry and tragical? tedious and brief?
+            <hi rend="italic">That is hot Ice</hi>, <hi rend="small-caps">AND</hi> <hi rend="italic">wondrous ſtrange</hi> <hi rend="small-caps">SNOW</hi>.] The nonſenſe of the laſt line ſhould be corrected thus,
+            That is, hot Ice, a wondrous ſtrange <hi rend="small-caps">SHEW</hi>!</hi></note>
+
+        </div>
+    </div>
+
+            <!-- ============================================================
+             WITNESS 8: JOHNSON (1765)
+             NOTE: 
+             ============================================================ -->
+
+           
               <div type="witness" xml:id="wit-JOHN">
               <head>Samuel Johnson (1765)</head>
 
@@ -860,9 +981,203 @@
                 </note>
               </div>
            </div>
-             
+
+              <!-- ============================================================
+             WITNESS 9: Steevens (1778)
+             NOTE: 
+             ============================================================ -->
+  
+        <div type="witness" xml:id="wit-STEEV">
+          <head>George Steevens (1778)</head>
+
+            <sp who="#PHIL">
+              <speaker>Philostrate.</speaker>
+                <l>Here, mighty Theſeus.</l>
+            </sp>
+
+            <sp who="#THE">
+               <speaker>Theseus.</speaker>
+                <l>Say, what abridgement<ref target="#STEEV-n5">5</ref> have you for this evening?</l>
+                <l>What maſk : what muſick: How ſhall we beguile</l>
+                <l>The lazy time, if not with ſome delight?</l>
+            </sp>
+
+            <sp who="#PHIL">
+              <speaker>Philostrate.</speaker>
+                <l>There is a brief <ref target="#STEEV-n6">6</ref>, how many ſports are ripe<ref target="#STEEV-n7">7</ref>;</l>
+                                        <stage rend="right-far">[giving a paper.</stage>
+                <l>Make choice of which your highneſs will ſee firſt.</l>
+            </sp>
+            
+            <sp who="#THE">
+                <speaker>Theseus.</speaker>
+                   <l rend="indent"><hi rend="italic"><stage>The. reads <ref target="#STEEV-n8">8</ref> .]</stage>The battle with the Centaurs, to be ſung</hi><stage rend="right-near">[reads.</stage></l>
+                   <l rend="indent"><hi rend="italic">By an Athenian eunuch to the harp.</hi></l>
+                <l>We’ll none of that: that have I told my love,</l>
+                <l>In glory of my kinſsman Hercules.</l>
+                   <l rend="indent"><hi rend="italic">The riot of the tipſy Bacchanals,</hi></l>
+                   <l rend="indent"><hi rend="italic">Tearing the Thracian ſinger in their rage.</hi></l>
+                <l>That is an old device; and it was play’d</l>
+                <l>When I from Thebes came laſt a conqueror.</l>
+                   <l><ref target="#STEEV-n9">9</ref> <hi rend="indent"><hi rend="italic">The thrice three Muſes mourning for the death</hi></hi></l>
+                   <l rend="indent"><hi rend="italic">Of learning, late deceas’d in beggary <ref target="#STEEV-n1">1</ref>.</hi></l>
+                <l>That is ſome ſatire, keen, and critical <ref target="#STEEV-n2">2</ref>,</l>
+                <l>Not ſorting with a nuptial ceremony.</l>
+                   <l rend="indent"><hi rend="italic">A tedious brief ſcene of young Pyramus,</hi></l>
+                   <l rend="indent"><hi rend="italic">And his love Thiſbe; very tragical mirth.</hi></l>
+                <l>Merry and tragical <ref target="#STEEV-n3">3</ref>? Tedious and brief?</l>
+                <l>That is, hot ice, and wonderous ſtrange ſnow <ref target="#STEEV-n4">4</ref>.</l>
+                <l>How ſhall we find the concord of this diſcord?</l>
+              </sp>
+
+            <sp who="#PHIL">
+              <speaker>Philostrate.</speaker>
+                <l>A play there is, my lord, ſome ten words long;</l>
+                <l>Which is as brief as I have known a play;</l>
+                <l>Which makes it tedious: for in all the play</l>
+                <l>There is not one word apt, one player fitted.</l>
+                <l>And tragical, my noble lord, it is;</l>
+                <l>For Pyramus therein doth kill himſelf.</l>
+                <l>Which, when I ſaw rehears’d, I muſt confeſs,</l>
+                <l>Made mine eyes water; but more merry tears</l>
+                <l>The paſſion of loud laughter never ſhed.</l>
+             </sp>
+
+            <sp who="#THE">
+              <speaker>Theseus.</speaker>
+                <l>What are they, that do play it?</l>
+              </sp>
+            
+            <sp who="#PHIL">
+              <speaker>Philostrate.</speaker>
+                <l>Hard-handed men, that work in Athens here,</l>
+                <l>Which never labour’d in their minds till now;</l>
+                <l>And now have toil’d their unbreath’d memories <ref target="#n5">5</ref></l>
+                <l>ith this ſame play againſt your nuptial.</l>
+              </sp>
+
+            <sp who="#THE">
+              <speaker>Theseus.</speaker>
+                <l>And we will hear it.</l>
+              </sp>
+
+            <sp who="#PHIL">
+              <speaker>Philostrate.</speaker>
+                <l>No, my noble lord,</l>
+                <l>It is not for your: I have hear it over,</l>
+                <l>And it is nothing, nothing in the world;</l>
+                <l>Unleſs you can find ſport in their intents <ref target="#n6">6</ref>,</l>
+                <l>Extremely ſtretch’d, and conn’d with cruel pain,</l>
+                <l>To do you ſervice.</l>
+             </sp>
+
+            <sp who="#THE">
+              <speaker>Theseus.</speaker>
+                <l>I will hear that play:</l>
+                <l>For never any thing can be amiſs,</l>
+                <l>When ſimpleneſs and duty tender it.</l>
+                <l>Go, bring them in; —and take your places, ladies.</l>
+             </sp>
+                    <stage rend="right-far-normal">[<hi rend="italic">Exit Philoſt.</hi>.</stage>
+            
+      <div type="notes">
+
+      <note xml:id="STEEV-n5" n="5"> <hi rend="italic">Say what abridgment</hi>, &amp;c ] By <hi rend="italic">abridgment</hi> 
+      our author means a dramatick performance, which crowds 
+      the events of years into a few hours. So in <hi rend="italic">Hamlet</hi>, act II. ſc. vii. he calls the players 
+      “<hi rend="italic">abridgments, abſtracts, and brief 
+      chronicles of the time</hi>.” Again in <hi rend="italic">K. Henry V</hi>.
+        “Then brook <hi rend="italic">abridgement</hi>; and your eyes advance
+        “After your thoughts—————   <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></note>
+
+      <note xml:id="STEEV-n6" n="6"> —<hi rend="italic">a</hi> brief, ] i.e. a ſhort account or enumeration. So in Gaſcpigne’s <hi rend="italic">Dulce Bellum 
+      Inexpertis</hi> 
+        “She ſent a brief unto me by her mayd.” <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></note>
+        
+      <note xml:id="STEEV-n7" n="7"> One of the quartos has <hi rend="italic">ripe</hi>, the other old editions, <hi rend="italic">riſe</hi>.
+        <hi rend="spacer">J<hi rend="small-caps">OHNSON</hi>.
+        <hi rend="italic">Riſe</hi> is a word uſed both by <hi rend="italic">Sidney</hi> and <hi rend="italic">Spenſer</hi>. It menas abounding, but it is now almoſt obſolete. Again, 
+        in Stephen Goſſon’s <hi rend="italic">School of Abuſe</hi>, 1579: “———you ſhall find the theaters of the one, the abuſes of 
+        the other, to be riſe among us.”
+        <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></hi></note>
+        
+       <note xml:id="STEEV-n8" n="8"> The. <hi rend="italic">reads</hi>] This is printed as Mr. Theobald gave it from both the old 
+       quartos. In the firſt folio, and all the following editions, Lyſander reads the catalogue, and Theſeus 
+       makes the remarks. <hi rend="spacer">J<hi rend="small-caps">OHNSON</hi>.</hi></note>
+        
+       <note xml:id="STEEV-n9" n="9"> <hi rend="italic">The thrice three Muses mourning for the death</hi> <hi rend="italic">Of learning,</hi> &amp;c. ]
+        I do not know whether it has been before obſerved, that Shakeſpeare here, perhaps, alluded to Spenſer’s 
+        poem, entitled <hi rend="italic">The Tears of the Muses</hi>, on the neglect and contempt of learning. This piece firſt appeared 
+        in quarto, with others 1591. If Spenſer’s poem be here intended, may we not preſume that there is ſome 
+        earlier edition of this? But however, if the alluſion be allowed, at leaſt it ſeems to bring the play 
+        below 1591. <hi rend="spacer">W<hi rend="small-caps">ARTON</hi>.</hi>
+        This pretended title of a dramatic performance might be deſigned as a covert ſtroke of ſatire on thoſe 
+        who had permitted Spenſer to die through abſolute want of bread in Dublin, in the year 1598: 
+        ———late deceas’d in beggary, ſeems to refer to this circumſtance. <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></note>
+        
+       <note xml:id="STEEV-n1" n="1"> <hi rend="italic">keen and</hi> critical ; ] <hi rend="italic">Critical</hi> here means <hi rend="italic">criticizing, cenſuring</hi>. So, in <hi rend="italic">Othello</hi> :
+        “O, I am nothing if not critical.”   <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></note>
+       
+       <note xml:id="STEEV-n2" n="2"> <hi rend="italic">Merry and tragical</hi>, ] Our poet is ſtill harping on 
+       <hi rend="italic">Cambyſes</hi>. <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></note>
+        
+       <note xml:id="STEEV-n3" n="3"> <hi rend="italic">Merry and tragical? Tedious and brief?</hi>
+        <hi rend="italic">That is, hot ice,</hi> 
+        <hi rend="small-caps">AND</hi> 
+        wondrous ſtrange 
+        <hi rend="small-caps">SNOW</hi>.]
+        The nonſsenſe of the laſt line ſhould be corrected thus:
+        <hi rend="italic">That is, hot ice, a wondrous ſtrange</hi> 
+        <hi rend="small-caps">SHOW</hi>.  
+        <hi rend="spacer">W<hi rend="small-caps">ARBURTON</hi>.</hi>
+        Mr Upton reads, not improbably: 
+        <hi rend="italic">And wondrous ſtrange</hi> black 
+        <hi rend="italic">ſnow</hi>. 
+        <hi rend="spacer">J<hi rend="small-caps">OHNSON</hi>.</hi>
+        Sir Thomas Hanmer reads 
+        <hi rend="italic">wondrous ſcorching ſnow</hi>. 
+        Mr. Pope omits the line entirely. I think the paſſage needs no 
+        change, on account of the verſification; for 
+        <hi rend="italic">wonderous</hi> 
+        is as often uſed as 
+        <hi rend="italic">three</hi>, as it is as 
+        <hi rend="italic">two</hi> ſyllables. 
+        The meaning of the line is ——— “That is, 
+        <hi rend="italic">hot ice</hi> 
+        and ſnow of 
+        <hi rend="italic">as ſtrange a quality</hi>.”
+        There is an ancient pamphlet entitled, “
+        <hi rend="italic">Tarlton’s Deviſe upon this unlooked for</hi> 
+        grete ſnowe.” And perhaps 
+        the paſſage before us may contain ſome alluſion to it. This work is entered on the books of the 
+        Stationers’ Company; as alſo, “A ballat of a Northerne Man’s Reporte of the 
+        <hi rend="italic">wonderful greate ſnowe</hi> 
+        in the Southerne parts, &amp;c.” 
+        <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi>
+        </note>
+        
+        <note xml:id="STEEV-n4" n="4"> ——————
+        <hi rend="italic">unbreath’d memories</hi>] That is, unexerciſed, unpractiſed memories. 
+        <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi>
+        <hi rend="italic">Unleſs you can find ſport in their intents</hi>] Thus all the copies. But as I know not what it is to 
+        <hi rend="italic">ſtretch</hi> and 
+        <hi rend="italic">con</hi> an 
+        <hi rend="italic">intent</hi>, I ſuſpect a line to be loſt. J
+        <hi rend="spacer">S<hi rend="small-caps">OHNSON</hi></hi>.To 
+        <hi rend="italic">intend</hi> and to 
+        <hi rend="italic">attend</hi> were anciently ſynonymous. Of this uſe ſeveral inſtances are given in a note on the 
+        third ſcene of the firſt act of 
+        <hi rend="italic">Othello</hi>. 
+        <hi rend="italic">Intents</hi> therefore may be put for the object of their 
+        <hi rend="italic">attention</hi>. 
+        We ſtill ſay a perſon is intent on his buſineſs. 
+        <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></note>
+
+
+               </div>
+           </div>
         <!-- ============================================================
-             WITNESS 8: Malone (1790)
+             WITNESS 10: Malone (1790)
              NOTE: 
              ============================================================ -->
           <div type="witness" xml:id="wit-MAL">
