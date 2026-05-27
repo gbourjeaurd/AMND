@@ -1035,7 +1035,8 @@
              NOTE: 
              ============================================================ -->
   
-        <div type="witness" xml:id="wit-STEEV">
+       <div type="parallel">
+             <div type="witness" xml:id="wit-STEEV">
           <head>George Steevens (1778)</head>
 
           <sp who="#THE">
