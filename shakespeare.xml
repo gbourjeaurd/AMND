@@ -49,6 +49,11 @@
         <div type="witness" xml:id="wit-Q1">
           <head>First Quarto (1600)</head>
 
+          <sp who="#THE">
+            <speaker>Theseus.</speaker>
+             <l> [...] Call <hi rend="italic">Philoſtrate</hi></l>
+           </sp>
+          
           <sp who="#PHIL">
             <speaker>Philostrate.</speaker>
             <l><hi rend="italic">H</hi>ere mighty <hi rend="italic">Theseus</hi></l>
@@ -70,7 +75,7 @@
           <sp who="#THE">
             <speaker>Theseus.</speaker>
             <l>The battell with the <hi rend="italic">centaures</hi> to be sung,</l>
-            <l>By an <hi rend="italic">Athenian</hi> Eunuche, to the <hi rend="small-caps">h</hi>arpe?</l>
+            <l>By an <hi rend="italic">Athenian</hi> Eunuche, to the <hi rend="small-caps">H</hi>arpe?</l>
             <l>Weele none of that. That haue I tolde my loue,</l>
             <l>In glory of my kinsman <hi rend="italic">Hercules</hi>.</l>
             <l>The ryot of the tipsie <hi rend="italic">Bachanals</hi>,</l>
@@ -145,6 +150,11 @@
              ============================================================ -->
         <div type="witness" xml:id="wit-F1">
           <head>First Folio (1623)</head>
+          
+           <sp who="#THE">
+            <speaker>Theseus.</speaker>
+             <l> [...] Call <hi rend="italic">Egeus</hi></l>
+           </sp>
           
           <sp who="#EGE">
             <speaker>Egeus.</speaker>
@@ -271,6 +281,11 @@
               <div type="witness" xml:id="wit-ROWE">
           <head>Nicholas Rowe (1709)</head>
                 
+           <sp who="#THE">
+            <speaker>Theseus.</speaker>
+             <l> [...] Call <hi rend="italic">Egeus</hi></l>
+           </sp>
+                
           <sp who="#EGE">
             <speaker>Egeus.</speaker>
             <l>Here mighty <hi rend="italic">Theſeus</hi>.</l>
@@ -396,6 +411,13 @@
         <div type="witness" xml:id="wit-POPE">
           <head>Alexander Pope (1725)</head>
                 
+           <sp who="#THE">
+            <speaker>Theseus.</speaker>
+             <l> [...] Call <hi rend="italic">Philoſtrate</hi></l>
+           </sp>
+
+          <stage rend="far-right"><hi rend="italic">Enter</hi> Philoſtrate.</stage>
+          
           <sp who="#PHIL">
             <speaker>Philostrate.</speaker>
             <l>Here mighty <hi rend="italic">Theſeus</hi>.</l>
@@ -523,7 +545,14 @@
        <div type="parallel">   
       <div type="witness" xml:id="wit-THEO">
             <head>Lewis Theobald (1733)</head>
-             
+
+          <sp who="#THE">
+            <speaker>Theseus.</speaker>
+             <l> [...] Call <hi rend="italic">Philoſtrate</hi></l>
+           </sp>
+               
+                <stage rend="far-right"><hi rend="italic">Enter</hi> Philoſtrate.</stage>
+        
                   <sp who="#PHIL">
                     <speaker>Philostrate.</speaker>
                        <l>Here, mighty <hi rend="italic">Theſeus</hi>.</l>
@@ -645,6 +674,13 @@
         <div type="witness" xml:id="wit-HAN">
           <head>Thomas Hanmer (1744)</head>
 
+          <sp who="#THE">
+            <speaker>Theseus.</speaker>
+             <l> [...] Call <hi rend="italic">Philoſtrate</hi></l>
+           </sp>
+               
+                <stage rend="far-right"><hi rend="italic">Enter</hi> Philoſtrate.</stage>
+          
                   <sp who="#PHIL">
                     <speaker>Philostrate.</speaker>
                        <l>Here, mighty <hi rend="italic">Theſeus</hi>.</l>
@@ -746,6 +782,13 @@
               <div type="witness" xml:id="wit-WAR">
               <head>William Warburton (1747)</head>
 
+          <sp who="#THE">
+            <speaker>Theseus.</speaker>
+             <l> [...] Call <hi rend="italic">Philoſtrate</hi></l>
+           </sp>
+               
+                <stage rend="far-right"><hi rend="italic">Enter</hi> Philoſtrate.</stage>
+                
             <sp who="#PHIL">
                 <speaker>Philostrate.</speaker>
                     <l>Here, mighty <hi rend="italic">Theſeus</hi>.    <hi rend="right-far">[ing?</hi></l>
@@ -862,6 +905,13 @@
            
               <div type="witness" xml:id="wit-JOHN">
               <head>Samuel Johnson (1765)</head>
+
+          <sp who="#THE">
+            <speaker>Theseus.</speaker>
+             <l> [...] Call <hi rend="italic">Philoſtrate</hi></l>
+           </sp>
+               
+                <stage rend="far-right"><hi rend="italic">Enter</hi> Philoſtrate.</stage>
 
             <sp who="#PHIL">
               <speaker>Philostrate.</speaker>
@@ -988,6 +1038,11 @@
         <div type="witness" xml:id="wit-STEEV">
           <head>George Steevens (1778)</head>
 
+          <sp who="#THE">
+            <speaker>Theseus.</speaker>
+             <l> [...] Call <hi rend="italic">Philoſtrate</hi><ref target="#STEEV-n4.">4<ref></l>
+           </sp>
+          
             <sp who="#PHIL">
               <speaker>Philostrate.</speaker>
                 <l>Here, mighty Theſeus.</l>
@@ -1080,13 +1135,16 @@
             
       <div type="notes">
 
-      <note xml:id="STEEV-n5" n="5"> <hi rend="italic">Say what abridgment</hi>, &amp;c ] By <hi rend="italic">abridgment</hi> 
+      <note xml:id="#STEEV-n4." n="4"><hi rend="italic">Call Philoſtrate</hi>.] In the folio, 1623, it is, Call <hi rend="italic">Egeus, and all the ſpeeches afterwards ſpoken by Philoftrare, are there given to that character. But the modern editions, from the quarto 1600,
+have rightly given them to Philoſtrate, who appears in the firſt ſcene as maſter of the revels to Theſeus, and is there ſent out on a ſimilar king of errand.
+<seg rend="indent">In the <hi rend="italic">Knight's Tale</hi> of Chaucer, Arcite, under the name of <hi rend="italic">Philoſtrate</hi>, is ſquire of the chamber to <hi rend="italic">Theſeus</hi>.    <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></</seg></note>
+        <note xml:id="STEEV-n5" n="5"> <hi rend="italic">Say what abridgment</hi>, &amp;c ] By <hi rend="italic">abridgment</hi> 
       our author means a dramatick performance, which crowds 
       the events of years into a few hours. So in <hi rend="italic">Hamlet</hi>, act II. ſc. vii. he calls the players 
       “<hi rend="italic">abridgments, abſtracts, and brief 
       chronicles of the time</hi>.” Again in <hi rend="italic">K. Henry V</hi>.
-        “Then brook <hi rend="italic">abridgement</hi>; and your eyes advance
-        “After your thoughts—————   <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></note>
+        <seg rend="indent">“Then brook <hi rend="italic">abridgement</hi>; and your eyes advance</seg>
+        <seg rend="indent">“After your thoughts—————   <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></seg></note>
 
       <note xml:id="STEEV-n6" n="6"> —<hi rend="italic">a</hi> brief, ] i.e. a ſhort account or enumeration. So in Gaſcpigne’s <hi rend="italic">Dulce Bellum 
       Inexpertis</hi> 
@@ -1103,36 +1161,36 @@
        quartos. In the firſt folio, and all the following editions, Lyſander reads the catalogue, and Theſeus 
        makes the remarks. <hi rend="spacer">J<hi rend="small-caps">OHNSON</hi>.</hi></note>
         
-       <note xml:id="STEEV-n9" n="9"> <hi rend="italic">The thrice three Muses mourning for the death</hi> <hi rend="italic">Of learning,</hi> &amp;c. ]
-        I do not know whether it has been before obſerved, that Shakeſpeare here, perhaps, alluded to Spenſer’s 
+       <note xml:id="STEEV-n9" n="9"> <hi rend="italic">The thrice three Muses mourning for the death</hi> <seg><hi rend="italic">Of learning,</hi> &amp;c. ]</seg>
+        <seg rend="indent">I do not know whether it has been before obſerved, that Shakeſpeare here, perhaps, alluded to Spenſer’s 
         poem, entitled <hi rend="italic">The Tears of the Muses</hi>, on the neglect and contempt of learning. This piece firſt appeared 
         in quarto, with others 1591. If Spenſer’s poem be here intended, may we not preſume that there is ſome 
         earlier edition of this? But however, if the alluſion be allowed, at leaſt it ſeems to bring the play 
-        below 1591. <hi rend="spacer">W<hi rend="small-caps">ARTON</hi>.</hi>
-        This pretended title of a dramatic performance might be deſigned as a covert ſtroke of ſatire on thoſe 
+        below 1591. <hi rend="spacer">W<hi rend="small-caps">ARTON</hi>.</hi></seg>
+        <seg rend="indent">This pretended title of a dramatic performance might be deſigned as a covert ſtroke of ſatire on thoſe 
         who had permitted Spenſer to die through abſolute want of bread in Dublin, in the year 1598: 
-        ———late deceas’d in beggary, ſeems to refer to this circumſtance. <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></note>
+        ———late deceas’d in beggary, ſeems to refer to this circumſtance. <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></note></seg>
         
        <note xml:id="STEEV-n1" n="1"> <hi rend="italic">keen and</hi> critical ; ] <hi rend="italic">Critical</hi> here means <hi rend="italic">criticizing, cenſuring</hi>. So, in <hi rend="italic">Othello</hi> :
-        “O, I am nothing if not critical.”   <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></note>
+        <seg rend="indent">“O, I am nothing if not critical.”   <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></seg></note>
        
        <note xml:id="STEEV-n2" n="2"> <hi rend="italic">Merry and tragical</hi>, ] Our poet is ſtill harping on 
        <hi rend="italic">Cambyſes</hi>. <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></note>
         
        <note xml:id="STEEV-n3" n="3"> <hi rend="italic">Merry and tragical? Tedious and brief?</hi>
-        <hi rend="italic">That is, hot ice,</hi> 
+        <seg><hi rend="italic">That is, hot ice,</hi> 
         <hi rend="small-caps">AND</hi> 
         wondrous ſtrange 
-        <hi rend="small-caps">SNOW</hi>.]
-        The nonſsenſe of the laſt line ſhould be corrected thus:
-        <hi rend="italic">That is, hot ice, a wondrous ſtrange</hi> 
+        <hi rend="small-caps">SNOW</hi>.]</seg>
+        <seg>The nonſsenſe of the laſt line ſhould be corrected thus:</seg>
+        <seg><hi rend="italic">That is, hot ice, a wondrous ſtrange</hi> 
         <hi rend="small-caps">SHOW</hi>.  
-        <hi rend="spacer">W<hi rend="small-caps">ARBURTON</hi>.</hi>
-        Mr Upton reads, not improbably: 
-        <hi rend="italic">And wondrous ſtrange</hi> black 
+        <hi rend="spacer">W<hi rend="small-caps">ARBURTON</hi>.</hi></seg>
+        <seg>Mr Upton reads, not improbably:</seg> 
+        <seg><hi rend="italic">And wondrous ſtrange</hi> black 
         <hi rend="italic">ſnow</hi>. 
-        <hi rend="spacer">J<hi rend="small-caps">OHNSON</hi>.</hi>
-        Sir Thomas Hanmer reads 
+        <hi rend="spacer">J<hi rend="small-caps">OHNSON</hi>.</hi></seg>
+        <seg rend="indent">Sir Thomas Hanmer reads 
         <hi rend="italic">wondrous ſcorching ſnow</hi>. 
         Mr. Pope omits the line entirely. I think the paſſage needs no 
         change, on account of the verſification; for 
@@ -1140,18 +1198,19 @@
         is as often uſed as 
         <hi rend="italic">three</hi>, as it is as 
         <hi rend="italic">two</hi> ſyllables. 
-        The meaning of the line is ——— “That is, 
+        The meaning of the line is ———</seg>
+         <seg>“That is, 
         <hi rend="italic">hot ice</hi> 
         and ſnow of 
-        <hi rend="italic">as ſtrange a quality</hi>.”
-        There is an ancient pamphlet entitled, “
+        <hi rend="italic">as ſtrange a quality</hi>.”</seg>
+        <seg rend="indent">There is an ancient pamphlet entitled, “
         <hi rend="italic">Tarlton’s Deviſe upon this unlooked for</hi> 
         grete ſnowe.” And perhaps 
         the paſſage before us may contain ſome alluſion to it. This work is entered on the books of the 
         Stationers’ Company; as alſo, “A ballat of a Northerne Man’s Reporte of the 
         <hi rend="italic">wonderful greate ſnowe</hi> 
         in the Southerne parts, &amp;c.” 
-        <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi>
+        <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></seg>
         </note>
         
         <note xml:id="STEEV-n4" n="4"> ——————
@@ -1180,7 +1239,12 @@
              ============================================================ -->
           <div type="witness" xml:id="wit-MAL">
               <head>Edmond Malone (1790)</head>
-
+         
+            <sp who="#THE">
+            <speaker>Theseus.</speaker>
+             <l> [...] Call <hi rend="italic">Philoſtrate</hi><ref target="#STEEV-n4.">4<ref></l>
+           </sp>
+               
              <sp who="#PHIL">
               <speaker>Philostrate.</speaker>
                 <l>Here, mighty Theſeus.</l>
