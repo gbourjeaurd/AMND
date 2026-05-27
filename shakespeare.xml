@@ -1042,7 +1042,7 @@
 
           <sp who="#THE">
             <speaker>Theseus.</speaker>
-             <l> [...] Call <hi rend="italic">Philoſtrate</hi><ref target="#STEEV-n4.">4</ref></l>
+             <l> [...] Call <hi rend="italic">Philoſtrate</hi><ref target="#STEEV1-n4">4</ref></l>
            </sp>
           
             <sp who="#PHIL">
@@ -1137,7 +1137,7 @@
             
       <div type="notes">
 
-      <note xml:id="#STEEV-n4." n="4"><hi rend="italic">Call Philoſtrate</hi>.] In the folio, 1623, it is, Call <hi rend="italic">Egeus</hi>, and all the ſpeeches afterwards ſpoken by Philoftrare, are there given to that character. But the modern editions, from the quarto 1600,
+      <note xml:id="#STEEV1-n4" n="4"><hi rend="italic">Call Philoſtrate</hi>.] In the folio, 1623, it is, Call <hi rend="italic">Egeus</hi>, and all the ſpeeches afterwards ſpoken by Philoftrare, are there given to that character. But the modern editions, from the quarto 1600,
 have rightly given them to Philoſtrate, who appears in the firſt ſcene as maſter of the revels to Theſeus, and is there ſent out on a ſimilar king of errand.
 <seg rend="indent">In the <hi rend="italic">Knight's Tale</hi> of Chaucer, Arcite, under the name of <hi rend="italic">Philoſtrate</hi>, is ſquire of the chamber to <hi rend="italic">Theſeus</hi>.    <hi rend="spacer">S<hi rend="small-caps">TEEVENS</hi>.</hi></seg></note>
         <note xml:id="STEEV-n5" n="5"> <hi rend="italic">Say what abridgment</hi>, &amp;c ] By <hi rend="italic">abridgment</hi> 
@@ -1201,7 +1201,7 @@ have rightly given them to Philoſtrate, who appears in the firſt ſcene as ma�
         <hi rend="italic">three</hi>, as it is as 
         <hi rend="italic">two</hi> ſyllables. 
         The meaning of the line is ———</seg>
-         <seg>“That is, 
+         <seg>“ That is, 
         <hi rend="italic">hot ice</hi> 
         and ſnow of 
         <hi rend="italic">as ſtrange a quality</hi>.”</seg>
